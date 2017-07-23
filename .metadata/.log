@@ -1,0 +1,42 @@
+!SESSION 2013-06-05 09:14:10.932 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -data E:\swasthi mam java\etawahmini -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.genuitec.eclipse.core 1 0 2013-06-05 09:14:17.823
+!MESSAGE Unable to locate .myeclipse.properties file
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2013-06-05 09:14:22.589
+!MESSAGE Installed snippet library: C:\Users\Kunal\AppData\Local\MyEclipse for Spring\MyEclipse for Spring 10\configuration\org.eclipse.osgi\bundles\134\1\.cp\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2013-06-05 09:14:22.620
+!MESSAGE Installed snippet library: C:\Users\Kunal\AppData\Local\MyEclipse for Spring\MyEclipse for Spring 10\configuration\org.eclipse.osgi\bundles\134\1\.cp\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2013-06-05 09:14:22.635
+!MESSAGE Installed snippet library: C:\Users\Kunal\AppData\Local\MyEclipse for Spring\MyEclipse for Spring 10\configuration\org.eclipse.osgi\bundles\134\1\.cp\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2013-06-05 09:14:22.682
+!MESSAGE Installed snippet library: C:\Users\Kunal\AppData\Local\MyEclipse for Spring\MyEclipse for Spring 10\configuration\org.eclipse.osgi\bundles\134\1\.cp\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2013-06-05 09:14:22.745
+!MESSAGE Installed snippet library: C:\Users\Kunal\AppData\Local\MyEclipse for Spring\MyEclipse for Spring 10\configuration\org.eclipse.osgi\bundles\134\1\.cp\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2013-06-05 09:14:22.776
+!MESSAGE Installed snippet library: C:\Users\Kunal\AppData\Local\MyEclipse for Spring\MyEclipse for Spring 10\configuration\org.eclipse.osgi\bundles\134\1\.cp\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2013-06-05 09:14:22.823
+!MESSAGE Installed snippet library: C:\Users\Kunal\AppData\Local\MyEclipse for Spring\MyEclipse for Spring 10\configuration\org.eclipse.osgi\bundles\134\1\.cp\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2013-06-05 09:14:22.854
+!MESSAGE Installed snippet library: C:\Users\Kunal\AppData\Local\MyEclipse for Spring\MyEclipse for Spring 10\configuration\org.eclipse.osgi\bundles\134\1\.cp\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2013-06-05 09:14:22.917
+!MESSAGE Installed snippet library: C:\Users\Kunal\AppData\Local\MyEclipse for Spring\MyEclipse for Spring 10\configuration\org.eclipse.osgi\bundles\134\1\.cp\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2013-06-05 09:14:22.948
+!MESSAGE Installed snippet library: C:\Users\Kunal\AppData\Local\MyEclipse for Spring\MyEclipse for Spring 10\configuration\org.eclipse.osgi\bundles\134\1\.cp\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2013-06-05 09:14:22.979
+!MESSAGE Installed snippet library: C:\Users\Kunal\AppData\Local\MyEclipse for Spring\MyEclipse for Spring 10\configuration\org.eclipse.osgi\bundles\134\1\.cp\snippets\jsp\struts_tiles_snippets.xml
