@@ -29,8 +29,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
       </style>
 </head>
   
-  <body background="../img/Picture1.jpg">
-     <%@include file="header.jsp"%>
+  <body background="/etawahmini/img/Picture1.jpg">
   <div style="position:absolute; left: -34px; width: 1578px; top: 241px; height: 98px;background-color:#A00000">
     <div style="position:absolute; left: -4px; width: 1428px; height: 56px; background-color:#800000; top: 0px;">
 	<div style="position:absolute; left: 577px;width: 228px; height: 27px; top: 10px;background-color:#FFFFFF">
@@ -185,6 +184,35 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 प्रेम “ांकर गुप्त<br>
 				   16-02-1993 </span>
   </div>
- 
+  <div style="position: absolute; left: -3px; width: 1577px; height: 42px; top: -110px;background-color:#800000">
+    <div style="position:absolute; left: -32px; top: 2px;"></div>
+    <p style="color: white; font-size: 24px; font-family: cursive; position: absolute; left: 493px; top: -19px; height: 32px; width: 534px;">इटावा हिन्दी सेवा निधि में आपका स्वागत है</p>
+    <div class="style16" style="position: absolute; left: 122px; top: 10px; height: 27px; width: 186px;"><span style="color: white">नमस्ते</span></div>
+  </div>
+  <div style="position:absolute; background-color:#8D1919: 3px; top: -68px; width: 1585px; height: 160px; left: -7px; background-color: #DEB887; 
+  layer-background-color: #808000; border: 1px none #000000;">
+    <p class="style18" style="position: absolute; left: 304px; top: 0px; width: 420px; height: 47px;">न्यायाधीश प्रेम शंकर गुप्ता जी</p>
+    <p style="position:absolute; left: 304px; top: 20px;"><span class="style3"></br>
+      इलाहाबाद उच्च न्यायालय के न्याय पूर्व प्रमुख,</br>
+      उत्तर प्रदेश</br>
+      १९२९-२०१३</span><span class="style4">. </span></p>
+    <p class="style18" style="position: absolute; left: 303px; top: -28px; width: 301px;">संस्था के अग्रणी</p>
+    <img src="/etawahmini/img/fd.jpg" style="width=180;height=82; position:absolute; left: 86px; top: 9px; width: 196px; height: 136px;"/> <img src="/etawahmini/img/etawahlogo.jpg" style="width=180;height=82; position:absolute; left: 921px; top: 9px; width: 181px; height: 136px;"/>
+    <p class="style18" style="position: absolute; left: 1135px; top: -22px; width: 301px;">इटावा हिन्दी सेवा निधि</p>
+    <p style="position:absolute; left: 1136px; top: -7px;"><span class="style3"></br>
+       शांति नीलय</br>
+२५/१-ए, टैगोर टाउन,</br>
+इलाहाबाद - २११००२</br>
+फोन नंबर - ०५३२-२४६५०३३</br></span><span class="style4">. </span></p>
+  </div>
+  <div style="position: absolute; left: -12px; top: 94px; width: 1586px; height: 33px; background-color: #800000; layer-background-color: #800000; border: 1px none #000000;"><div class="style5" style="position: absolute; left: 118px; top: 2px; height: 29px; width: 85px;"><a href="/etawahmini/jsp/welcome.jsp" style="color: white">प्रथमपृष्ठ</a></div>
+ <div class="style5" style="position: absolute; left: 253px; top: 3px; height: 26px; width: 110px;"><a href="/etawahmini/jsp/aboutus.jsp" style="color: white">हमारे बारे में</a></div>
+ <div class="style5" style="position: absolute; left: 430px; top: 4px; height: 27px; width: 89px;"><a href="/etawahmini/jsp/constitution.jsp" style="color: white">संविधान</a></div>
+ <div class="style5" style="position: absolute; left: 580px; top: 4px; height: 25px; width: 75px;"><a href="/etawahmini/jsp/members.jsp" style="color: white">सदस्य</a></div>
+ <div class="style5" style="position: absolute; left: 724px; top: 5px; height: 24px; width: 64px;"><a href="/etawahmini/jsp/awards.jsp" style="color: white">पुरस्कार</a></div>
+ <div class="style5" style="position: absolute; left: 839px; top: 6px; height: 24px; width: 162px;"><a href="/etawahmini/jsp/awardedmembers.jsp" style="color: white">पुरस्कार विजेता</a></div>
+ <div class="style5" style="position: absolute; left: 1044px; top: 4px; height: 24px; width: 103px;"><a href="/etawahmini/jsp/register.jsp" style="color: white">रजिस्टर</a></div>
+    
+  </div>
   </body>
 </html>

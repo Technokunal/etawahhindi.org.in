@@ -80,8 +80,8 @@ setTimeout("showPic()",2000);
     <p class="style1" style="position: absolute; left: 304px; top: 0px; width: 420px; height: 47px;">न्यायाधीश प्रेम शंकर गुप्ता जी</p>
     <p style="position:absolute; left: 304px; top: 36px;"><span class="style3"></br>
     इलाहाबाद उच्च न्यायालय के न्याय पूर्व प्रमुख,</br>उत्तर प्रदेश</br>१९२९-२०१३</span><span class="style4">. </span></p>
-    <p class="style1" style="position: absolute; left: 303px; top: -28px; width: 301px;">संस्था के संस्थापक</p>
-  <img src="../img/fd.jpg" style="width=180;height=82; position:absolute; left: 86px; top: 9px; width: 196px; height: 136px;"/> <img src="../img/etawahlogo.jpg" style="width=180;height=82; position:absolute; left: 921px; top: 9px; width: 181px; height: 136px;"/>
+    <p class="style1" style="position: absolute; left: 303px; top: -28px; width: 301px;">संस्था के अग्रणी</p>
+  <img src="/etawahmini/img/fd.jpg" style="width=180;height=82; position:absolute; left: 86px; top: 9px; width: 196px; height: 136px;"/> <img src="/etawahmini/img/etawahlogo.jpg" style="width=180;height=82; position:absolute; left: 921px; top: 9px; width: 181px; height: 136px;"/>
   <p class="style1" style="position: absolute; left: 1135px; top: -22px; width: 301px;">इटावा हिन्दी सेवा निधि</p>
   <p style="position:absolute; left: 1136px; top: 9px;"><span class="style3"></br>
     शांति नीलय</br>
@@ -96,13 +96,13 @@ setTimeout("showPic()",2000);
   <div id="did"  style="position:absolute;left: 756px; top: 83px; width: 84px; height: 47px;font-style:normal;color:#800000;"> <%=msgtxt%></div>
 <%  }%>
   <div style="position: absolute; left: -2px; top: 200px; width: 1586px; height: 33px; background-color: #800000; layer-background-color: #800000; border: 1px none #000000;"></div>
- <div class="style5" style="position: absolute; left: 185px; top: 204px; height: 29px; width: 85px;"><a href="welcome.jsp" style="color: white">प्रथमपृष्ठ</a></div>
- <div class="style5" style="position: absolute; left: 303px; top: 206px; height: 26px; width: 78px;"><a href="aboutus.jsp" style="color: white">हमारे बारे में</a></div>
- <div class="style5" style="position: absolute; left: 442px; top: 205px; height: 27px; width: 89px;"><a href="constitution.jsp" style="color: white">संविधान</a></div>
- <div class="style5" style="position: absolute; left: 588px; top: 207px; height: 25px; width: 75px;"><a href="members.jsp" style="color: white">सदस्य</a></div>
- <div class="style5" style="position: absolute; left: 730px; top: 207px; height: 24px; width: 64px;"><a href="awards.jsp" style="color: white">पुरस्कार</a></div>
- <div class="style5" style="position: absolute; left: 860px; top: 207px; height: 24px; width: 162px;"><a href="awardedmembers.jsp" style="color: white">पुरस्कार विजेता</a></div>
- <div class="style5" style="position: absolute; left: 1051px; top: 206px; height: 24px; width: 103px;"><a href="register.jsp" style="color: white">रजिस्टर</a></div>
+ <div class="style5" style="position: absolute; left: 185px; top: 204px; height: 29px; width: 85px;"><a href="/etawahmini/jsp/welcome.jsp" style="color: white">प्रथमपृष्ठ</a></div>
+ <div class="style5" style="position: absolute; left: 303px; top: 206px; height: 26px; width: 78px;"><a href="/etawahmini/jsp/aboutus.jsp" style="color: white">हमारे बारे में</a></div>
+ <div class="style5" style="position: absolute; left: 442px; top: 205px; height: 27px; width: 89px;"><a href="/etawahmini/jsp/constitution.jsp" style="color: white">संविधान</a></div>
+ <div class="style5" style="position: absolute; left: 588px; top: 207px; height: 25px; width: 75px;"><a href="/etawahmini/jsp/members.jsp" style="color: white">सदस्य</a></div>
+ <div class="style5" style="position: absolute; left: 730px; top: 207px; height: 24px; width: 64px;"><a href="/etawahmini/jsp/awards.jsp" style="color: white">पुरस्कार</a></div>
+ <div class="style5" style="position: absolute; left: 860px; top: 207px; height: 24px; width: 162px;"><a href="/etawahmini/jsp/awardedmembers.jsp" style="color: white">पुरस्कार विजेता</a></div>
+ <div class="style5" style="position: absolute; left: 1051px; top: 206px; height: 24px; width: 103px;"><a href="/etawahmini/jsp/register.jsp" style="color: white">रजिस्टर</a></div>
  <div style="position: absolute; left: 185px; top: 275px; width: 240px; height: 302px;background-color:#EEDCC3;">
   <div align="center" class="style16" style="position:absolute; width: 242px; height: 31px; background-color: #999933; layer-background-color: #999933; border: 1px none #000000; left: 0px; top: -31px;">समारोह  </div>
   <%Connection con=null;
@@ -113,9 +113,7 @@ setTimeout("showPic()",2000);
 		ps=con.prepareStatement(strsql);
 		rs=ps.executeQuery();
 		while(rs.next()){
-			%><ul type="square"><li><a style="color:#800000;font-size:16px" href="#"><%=rs.getString("description") %></a></li>
-  </ul>
-  <%
+			%><ul type="square"><li><a style="color:#800000;font-size:16px" href="/etawahmini/servlet/DownloadServlet?msg=<%=rs.getString("filename")%>"><%=rs.getString("description") %></a></li></ul><%
 		}
 		
 		

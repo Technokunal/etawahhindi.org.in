@@ -37,9 +37,18 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 </head>
   
   <body background="../img/Picture1.jpg">
-  <%@include file="header.jsp"%>
-
-</div>
+  <!--<%@include file="header.jsp" %>
+  --><div style="position:absolute; left: -2px; width: 1581px; top: 236px; height: 98px;background-color:#A00000">
+    <div style="position:absolute; left: -1px; width: 1573px; height: 56px; background-color:#800000; top: 0px;">
+	<div style="position:absolute; left: 577px;width: 228px; height: 37px; top: 8px;background-color:#FFFFFF">
+      <p align="center" class="style1 style2 style1" style="position:absolute; width: 224px; height: 32px; left: 2px; top: -24px;color:#580000;">पुरस्कार विजेता</p>
+    </div>
+    </div>
+    <div style="position:absolute; left: 932px; width: 439px; height: 38px; background-color:#A00000; top: 58px;"><span style="font-size:2em;color:#FFFFFF">--प्रेमशंकर गुप्त‘शान्ति निलय’</span></div>
+  </div>
+  
+  
+  
   <div class="style18" style="position:absolute; width: 1006px; height: 48px; left: 217px; top: 361px; background-color: #999900; layer-background-color: #999900; border: 1px none #000000;">
     <div align="center" class="style19">”निधि” द्वारा सम्मानित-अलंकृत विद्वन्मनीषी</div>
   </div>
@@ -290,5 +299,16 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
       <td><div align="center" class="style3">जनाब  साबिर अहमद साबिर</div></td>
     </tr>
   </table>
+  <div id="did"  style="position:absolute;left: 192px; top: 442px; width: 125px; height: 105px;font-style:Arial Black;font-size:40;color:#000000;"></div>
+  </div>
+  <div style="position: absolute; left: -2px; top: 200px; width: 1584px; height: 33px; background-color: #800000; layer-background-color: #800000; border: 1px none #000000;"> 
+  <div class="style5" style="position: absolute; left: 178px; top: 3px; height: 29px; width: 85px;"><a href="/etawahmini/jsp/welcome.jsp" style="color: white">प्रथमपृष्ठ</a></div>
+ <div class="style5" style="position: absolute; left: 297px; top: 4px; height: 26px; width: 78px;"><a href="/etawahmini/jsp/aboutus.jsp" style="color: white">हमारे बारे में</a></div>
+ <div class="style5" style="position: absolute; left: 422px; top: 4px; height: 27px; width: 89px;"><a href="/etawahmini/jsp/constitution.jsp" style="color: white">संविधान</a></div>
+ <div class="style5" style="position: absolute; left: 559px; top: 6px; height: 25px; width: 75px;"><a href="/etawahmini/jsp/members.jsp" style="color: white">सदस्य</a></div>
+ <div class="style5" style="position: absolute; left: 708px; top: 5px; height: 24px; width: 64px;"><a href="/etawahmini/jsp/awards.jsp" style="color: white">पुरस्कार</a></div>
+ <div class="style5" style="position: absolute; left: 819px; top: 6px; height: 24px; width: 162px;"><a href="/etawahmini/jsp/awardedmembers.jsp" style="color: white">पुरस्कार विजेता</a></div>
+ <div class="style5" style="position: absolute; left: 1038px; top: 6px; height: 24px; width: 103px;"><a href="/etawahmini/jsp/register.jsp" style="color: white">रजिस्टर</a></div>
+  </div>
   </body>
 </html>

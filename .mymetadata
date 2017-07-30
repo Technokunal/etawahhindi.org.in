@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-module
   type="WEB"
-  name="etawahhindi.org.in"
+  name="etawahmini"
   id="myeclipse.1363414289526"
   context-root="/etawahmini"
   j2ee-spec="6.0"
-  archive="etawahhindi.org.in.war">
+  archive="etawahmini.war">
   <attributes>
     <attribute name="webrootdir" value="WebRoot" />
   </attributes>

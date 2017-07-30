@@ -36,7 +36,7 @@ document.getElementById(divid).style.display="none";
   </style>
   </head>
   
-  <body background="../img/Picture1.jpg">
+  <body background="/etawahmini/img/Picture1.jpg">
   <% HttpSession hs= request.getSession(false);
   String uid=(String)hs.getAttribute("userinfo");
   

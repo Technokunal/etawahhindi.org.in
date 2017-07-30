@@ -39,7 +39,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 </head>
 <% String msgtxt=request.getParameter("msg"); %>
   
-  <body background="../img/Picture1.jpg">
+  <body background="/etawahmini/img/Picture1.jpg">
   <a href="/etawahmini/jsp/admin.jsp" style="position:absolute; width: 71px; height: 15px; left: 892px; top: 102px;">Back</a>
   <% HttpSession hs= request.getSession(false);
   String uid=(String)hs.getAttribute("userinfo");

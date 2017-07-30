@@ -33,8 +33,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
       </style>
 </head>
   
-  <body background="../img/Picture1.jpg">
-     <%@include file="header.jsp"%>
+  <body background="/etawahmini/img/Picture1.jpg">
     <div style="position: absolute; left: 1px; width: 1577px; height: 42px; top: 1px;background-color:#800000">
     <div style="position:absolute; left: -32px; top: 2px;"></div>   
     <p style="color: white; font-size: 24px; font-family: cursive; position: absolute; left: 493px; top: -19px; height: 32px; width: 534px;">इटावा हिन्दी सेवा निधि में आपका स्वागत है</p>
@@ -71,7 +70,35 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
        सभा को सम्मोहित कर दिया। इन दोनों प्रतिभाओं को हमारा हार्दिक धन्यवाद।
 पुस्तिका के संपादन के लिए चि0 कुश चतुर्वेदी, मुद्रण के लिए श्री गोविन्द नारायण तथा अनेकविध सहयोग के लिए डॉ0 विभुंराम मिश्र धन्यवाद के पात्र हैं।</p>
   </div>
-  
+   <div style="position: absolute; left: 1px; width: 1577px; height: 42px; top: 1px;background-color:#800000">
+     <div style="position:absolute; left: -32px; top: 2px;"></div>
+     <p style="color: white; font-size: 24px; font-family: cursive; position: absolute; left: 493px; top: -19px; height: 32px; width: 534px;">इटावा हिन्दी सेवा निधि में आपका स्वागत है</p>
+     <div class="style16" style="position: absolute; left: 122px; top: 10px; height: 27px; width: 186px;"><span style="color: white">नमस्ते</span></div>
+   </div>
+   <div style="position:absolute; background-color:#8D1919: 3px; top: 41px; width: 1585px; height: 160px; left: -8px; background-color: #DEB887; 
+  layer-background-color: #808000; border: 1px none #000000;">
+     <p class="style17" style="position: absolute; left: 304px; top: 0px; width: 420px; height: 47px;">न्यायाधीश प्रेम शंकर गुप्ता जी</p>
+     <p style="position:absolute; left: 304px; top: 36px;"><span class="style3"></br>
+       इलाहाबाद उच्च न्यायालय के न्याय पूर्व प्रमुख,</br>
+       उत्तर प्रदेश</br>
+       १९२९-२०१३</span><span class="style4">. </span></p>
+     <p class="style17" style="position: absolute; left: 303px; top: -28px; width: 301px;">संस्था के अग्रणी</p>
+     <img src="/etawahmini/img/fd.jpg" style="width=180;height=82; position:absolute; left: 86px; top: 9px; width: 196px; height: 136px;"/> <img src="/etawahmini/img/etawahlogo.jpg" style="width=180;height=82; position:absolute; left: 921px; top: 9px; width: 181px; height: 136px;"/>
+     <p class="style17" style="position: absolute; left: 1135px; top: -22px; width: 301px;">इटावा हिन्दी सेवा निधि</p>
+     <p style="position:absolute; left: 1136px; top: 9px;"><span class="style3"></br>
+        शांति नीलय</br>
+२५/१-ए, टैगोर टाउन,</br>
+इलाहाबाद - २११००२</br>
+फोन नंबर - ०५३२-२४६५०३३</br></span><span class="style4">. </span></p>
+   </div>
+   <div style="position: absolute; left: -2px; top: 200px; width: 1579px; height: 33px; background-color: #800000; layer-background-color: #800000; border: 1px none #000000;"><div class="style5" style="position: absolute; left: 197px; top: 3px; height: 29px; width: 85px;"><a href="/etawahmini/jsp/welcome.jsp" style="color: white">प्रथमपृष्ठ</a></div>
+ <div class="style5" style="position: absolute; left: 331px; top: 5px; height: 26px; width: 78px;"><a href="/etawahmini/jsp/aboutus.jsp" style="color: white">हमारे बारे में</a></div>
+ <div class="style5" style="position: absolute; left: 459px; top: 4px; height: 27px; width: 89px;"><a href="/etawahmini/jsp/constitution.jsp" style="color: white">संविधान</a></div>
+ <div class="style5" style="position: absolute; left: 600px; top: 5px; height: 25px; width: 75px;"><a href="/etawahmini/jsp/members.jsp" style="color: white">सदस्य</a></div>
+ <div class="style5" style="position: absolute; left: 729px; top: 6px; height: 24px; width: 64px;"><a href="/etawahmini/jsp/awards.jsp" style="color: white">पुरस्कार</a></div>
+ <div class="style5" style="position: absolute; left: 857px; top: 6px; height: 24px; width: 162px;"><a href="/etawahmini/jsp/awardedmembers.jsp" style="color: white">पुरस्कार विजेता</a></div>
+ <div class="style5" style="position: absolute; left: 1078px; top: 7px; height: 24px; width: 103px;"><a href="/etawahmini/jsp/register.jsp" style="color: white">रजिस्टर</a></div>
+   </div>
   </body>
 </html>
 

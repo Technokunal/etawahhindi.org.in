@@ -33,7 +33,7 @@ body {
 .style4 {font-size: 24px; font-weight: bold; color: #800000; }
 -->
   </style>
-  <script type="text/javascript" src="js/validation.js"></script>
+  <script type="text/javascript" src="/etawahmini/js/validation.js"></script>
 <script type="text/javascript">
   function main()
 {
@@ -60,18 +60,18 @@ return true;
     <div align="center" class="style1 style2" style="background-color: #800000; position:absolute; width: 738px; left: 346px; top: 14px;">Administrator Login </div>
 	
     <div style="position:absolute; left: 525px; top: 160px; height: 206px;">
-      <form name="form1" action="/etawahhindi.org.in/LoginDB" method="post"onsubmit="return main()">
+      <form name="form1" action="/etawahmini/servlet/LoginDB" method="post"onsubmit="return main()">
         <table width="382" height="235" border="0">
           <tr>
             <td width="111"><span class="style4">UserID:</span></td>
             <td width="261"><label>
-              <input type="text" name="luid">
+              <input type="text" name="luid" required>
             </label></td>
           </tr>
           <tr>
             <td><span class="style4">Password:</span></td>
             <td><label>
-              <input type="password" name="lpwd">
+              <input type="password" name="lpwd" required>
             </label></td>
           </tr>
           <tr>

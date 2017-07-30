@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.util.*,com.etawahmini.dbinfo.*,java.sql.*" pageEncoding="ISO-8859-1"%>
+<%@ page language="java" import="java.util.*,com.etawahmini.dbinfo.*,java.sql.*," pageEncoding="ISO-8859-1"%>
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
@@ -36,7 +36,7 @@ function Write()
   </style></head>
   
   <body>
-   <body background="../img/Picture1.jpg">
+   <body background="/etawahmini/img/Picture1.jpg">
    <a href="/etawahmini/jsp/admin.jsp" style="position:absolute; width: 71px; height: 15px; left: 384px; top: 27px;">Back</a>
    <% Connection con=null;ResultSet rs=null;ResultSet rs1=null;PreparedStatement ps=null;PreparedStatement ps1=null;%>
    <div style="position:absolute; width: 628px; height: 67px; left: 482px; top: 16px; background-color: #800000; 
